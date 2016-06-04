@@ -1,0 +1,27 @@
+Überlegen Sie, welches Layout Ihre Dateien aus der ersten Übung haben sollen und halten Sie es grob auf Papier fest (Farben, Positionierung, Schriften, Abstände, etc.).
+
+Versuchen Sie das Layout mit Hilfe von CSS-Dateien umzusetzen.
+Erstellen Sie mindestens zwei CSS-Dateien, eine für den Screen und eine für Print.
+In der Screen-Datei werden Sie per Media-Query verschiedene Screen-Größen berücksichtigen.
+Verwenden Sie eine Reset- oder Normalisierungs-Datei und begründen Sie Ihre Entscheidung im Kommentar. Importieren Sie die gewählte reset.css bzw. norm.css.
+
+Verwenden Sie mindestens ein Pseudo-Element oder eine Pseudo-Klasse, zusätzlich zu üblichen Linkzuständen, wie hover etc.
+Alle Dateien, auch die CSS-Dateien müssen valide sein.
+Warnungen für die CSS-Dateien sind bei vorliegender sinnvoller Begründung, im Kommentar, erlaubt.
+
+Laden Sie (jeder) alle Dateien gepackt mit der Aufgabenstellung ins Moodle.
+
+Sie können für diese Aufgabe folgende Punkte erhalten:
+Einbindung wie in Aufgabenstellung 2 Punkte
+Pseudoklasse oder -element 1 Punkt
+Alle Dateien sind valide oder mit begründeten Warnungen behaftet 2 Punkte
+media-Query 4 Punkte
+
+Anwendung aller im SU besprochenen Konzepte:
+verschiedene Arten von Selektoren 4 Punkte
+Vermeidung von Redundanzen 2 Punkte
+
+Zufriedenstellende Beantwortung aller Fragen zur Übungsabgabe 4 Punkte
+Hochladen der Dateien 1 Punkt
+
+Gesamte Punktzahl: 18 Punkte

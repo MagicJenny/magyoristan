@@ -1,0 +1,26 @@
+Fügen Sie Ihrer Webpräsenz ein weiteres HTML-Dokument hinzu und bearbeiten Sie es wie folgt:
+
+Empfangen Sie den Anwender und bieten Sie ihm ein Spiel oder eine sonstige Aktivität an. Z.B. eine Bildergeschichte mit mehreren Ausgängen, wobei der Anwender selbst seinen Weg wählen kann, ein Memory, ein Schnickschnackschnuck oder ähnliches. Auch eine Formularprüfung ist möglich.
+Dieses Spiel ist ein Vorschlag, der sich auf die im SU besprochenen Konzepte bezieht. Gerne dürfen Sie einen Gegenvorschlag machen und diesen Umsetzen. Besprechen Sie Ihre Ideen vorab mit mir.
+
+Verwenden Sie die im SU besprochenen Konzepte. 
+
+    unobtrusive Design
+    Zugriff über das DOM
+    kein innerHTML
+    sinnvolle Aufteilung in Funktionen, Verwendung von Parameterlisten
+
+Vorgefertigte Lösungen aus dem Internet werden nicht bewertet.
+
+Laden Sie Ihre Dateien Dateien gepackt ins Moodle.
+
+Sie können folgende Punkte erhalten:
+Die neue HTML-Datei ist sinnvoll in der Gesamtpräsenz eingegliedert 1 Punkt
+Die HTML- und CSS-Dateien sind valide, die CSS-Dateien können mit begründbaren Warnungen behaftet sein 2 Punkte
+Die JavaScript-Datei(en) sind ausführbar 2 Punkt
+Im SU besprochene JavaScript-Konzepte sind umgesetzt 2 Punkte
+Die Dateien sind hochgeladen 1 Punkt
+Struktur, Layout und Verhalten sind strikt getrennt 2 Punkte
+Das JavaScript ist erklärbar und die Fragen zur Abgabe werden zufriedenstellend beantwortet 8 Punkte
+
+Insgesamt 18 Punkte

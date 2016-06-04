@@ -1,0 +1,247 @@
+ @import url("normalize.css");
+
+/* Cascading Style Sheet
+  Abgabe Aufgabe 2*/
+
+ /*Wir haben uns für die Normalisierung entschieden, da dort schon Grundeinstellungen vorhanden sind die von Anfang an Übersichtilichkeit gewährleisten.
+	Zudem ist diese Methode arbeitssparend, weil Abstände zwischen einzelnen Absätzen bereits vorhanden sind und ggf. von uns übernommen werden können.*/
+  
+/* basics */
+	header img{	display: block;
+				width: 100%;}
+					
+	 h1{display: block;
+		margin: 0 auto;
+		font-size: 2.4em;
+		text-align: center;
+		margin-top: 3%;}
+			
+	h2{ font-size: 1.7em;
+		text-align: center;}
+		
+	header h2 {margin-bottom:5%;}	
+	
+	h3{font-size: 1.4em;}
+	
+	h4{font-size: 1.4em;
+		text-align: center;}
+	
+	p{text-align: justify;}
+	
+	img {border-radius:20px;}
+			
+/*body*/
+
+	body{margin: 0 auto;
+		width: 70%;}	
+
+	#content { margin: 0% 10%;}	
+			
+/*navigation*/
+
+	#logo {width: 16%;
+			display: block;
+			margin: 0 auto;}
+	
+	
+	nav ul li {display: inline-block;
+			border-radius: 20px;
+			padding: 14px 20px 10px 20px ;
+			margin-left: 20px;
+			background-color: #0f0b24;
+			position: relative;
+			top: 8px;
+			}
+			
+	nav a { color: #fff;
+		text-decoration: none;
+		font-size: 1.5em;}
+		
+	nav ul li:hover {background-color: #787491;}	
+
+	#navigation {padding-bottom:2%;}
+	
+	nav {text-align: center;}
+
+/*index*/
+
+	
+	#subhead img { display: block;
+			margin: 0 auto;			
+			padding-bottom: 2%;}
+			
+	#subhead  [href] {color: black;
+			text-decoration: underline;
+			font-style: italic;}
+			
+	#subhead {margin-bottom:5%;}
+	
+	.inhalt {list-style-position: inside;
+			 clear: left;
+			 margin-bottom: 6%;}
+			 
+	.inhalt img {float:left;
+				margin: 0% 3% 1% 0%;}
+	 
+
+/*Die Reisegruppe*/
+	 
+	.mitglieder {clear:both;}	
+				
+	
+	.mitglieder img {float:left;
+					margin: 0% 3% 6% 0%;}
+					
+					
+/*Reisetipps*/
+					
+	.reisetipps h3 {margin-top:5%;}
+	
+	.reisetipps  [href] {color: black;
+			text-decoration: underline;
+			font-style: italic;}
+			
+/*Reisevorbereitung*/
+
+	.memory {padding: 10% 0 10% 0;
+			text-align: center;
+			border: 1px dashed;
+			border-color: #0f0b24;}
+			
+	.memory img {width: 20%;}
+
+
+			
+/*footer*/
+
+	footer {text-align: center;
+			margin: 5% 0% 5% 0%;
+			clear: both;}
+			
+	footer  [href] {color: black;
+				text-decoration: none;
+				font-weight: bold;}
+				
+	footer ul li{display: inline-block;}
+	
+	.footer1 li + li::before {content: " | ";}
+	
+	.footer2 li + li::before {content: " | ";}
+	
+	
+	
+			
+/*Für Druck*/
+	
+@media print { 
+			body{margin: 0 auto;
+					width: 100%;}
+					
+			img {border-radius:0px;}
+			
+			footer {display: none;}
+			
+			#subhead img	{display: none;}	
+			
+			#navigation {display: none;} 
+			
+			#content {margin: 0% 0%;}
+			
+			* {font-family: serif;
+				font-size: 94%;}
+				
+			h1{font-size: 1.8em;
+				padding:0;
+				margin: 0;}
+				
+			h2 {font-size:1.6em;
+				}
+				
+			header h2 {margin-bottom:0%;
+					padding:0;
+					margin:0;}
+			
+			h4 {margin-top: 10px;}
+			
+			header img {display: none;}
+			
+			img {width: 27%;}
+			
+			.mitglieder img {width: 15%;}
+			
+			}			
+
+			
+/*Für Smartphone 320x480px*/
+			
+@media screen and (max-width:480px) {
+			
+				body{margin: 0 auto;
+					width: 100%;}
+					
+				header {padding-top: 110px;}
+					
+				#content {margin: 0% 5%;}
+				
+				header {margin: 0% 5%;}
+				
+				* {font-size: 95%;}
+				
+				h1 {font-size: 1.8em;}
+				
+				h2 {font-size: 1.5em;}
+				
+				h3{display: block;
+					margin: 0 auto;
+					text-align: center;
+					padding-top: 5%;}
+				
+				img {border-radius:0;
+					width: 100%;}
+				
+				.mitglieder img {float:none;
+								display: block;
+								margin: 0 auto;
+								padding: 10% 0% 0% 0%;
+								max-width: 160px;}
+					
+				.inhalt img {float:none;
+							display: block;
+							margin: 0 auto;
+							padding: 7% 0% 0% 0%;}
+				
+				.reisetipps  h3 {margin-bottom: 2%;}
+				
+				.reisetipps [href] {display: block;
+									text-align: center;}
+									
+				#navigation img { display: none;}
+				
+				#navigation  {position: fixed;
+							width: 100%;
+							background-color: #0f0b24;
+							padding-bottom:0%;}			
+				
+				nav   {display: block;}
+	
+				nav ul { float:none;
+						top:0px;
+						padding: 0;
+						margin: 0 auto;
+						text-align: center;}
+				
+				nav ul li {	display: inline-block;
+						border-radius: 0px;
+						padding: 14px 10px 14px 10px ;
+						margin: 0px;
+						background-color: #0f0b24;
+						position: relative;
+						top: 0px;}
+						
+				nav a {font-size: 1.4em;}
+					
+				nav ul li:hover {background-color: #787491;}	
+			
+				}
+
+
